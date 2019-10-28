@@ -1,0 +1,16 @@
+PODS:
+  - CocoaToggles (0.1.5)
+
+DEPENDENCIES:
+  - CocoaToggles (~> 0.1.5)
+
+SPEC REPOS:
+  trunk:
+    - CocoaToggles
+
+SPEC CHECKSUMS:
+  CocoaToggles: 958a1874292db2c5ba7cb1f717b1bc28e5c79488
+
+PODFILE CHECKSUM: 031f5a19614a75519d3b28a311fc6f045eb457f4
+
+COCOAPODS: 1.8.0.beta.2

@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6ECD878CBEB5D44EFE6CC11693ACF6 /* CocoaToggles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF97EC0D02270D23771D5C6E2DA565 /* CocoaToggles-dummy.m */; };
+		1389309BD441C06F8F762BE101E23A51 /* Pods-UseCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAA545D6C27074A3B5D79E846E66557 /* Pods-UseCase-dummy.m */; };
+		2530A531BC06C301B894C2B34BC3DE67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2CB41661BB58D062C83C0F3635C1669D /* CTToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F2484A5021639956F41A50655C4718 /* CTToggle.swift */; };
+		2DAC5C0B8624478555C0C990C39FE952 /* CTToggleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C441CA113A3AA1EA8F07013F00B1E7 /* CTToggleManager.swift */; };
+		4A49065D18F993E799F887FF29E6D98A /* CTRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A03D6501179CB09D80191A9256E9750 /* CTRepository.swift */; };
+		4B7D9D0E3319D5D95AFECD2042464E79 /* Pods-UseCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E74DE808438D49CDD048FDE9F7F956C0 /* Pods-UseCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507BE299BC209B89C484EB4089066808 /* CTTogglesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96999CDBA31404A69678714F91ADAF /* CTTogglesDelegate.swift */; };
+		752C276D8BAC53BFEE57E64829C7654B /* CTApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB98EC2110D86F24B7FF9B3E4119270C /* CTApplication.swift */; };
+		78E551B134E4FF1D4877D454B415207D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D4089645C03CA02E91AE1963C2E59AEA /* CocoaToggles-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B45D8CD6962AD9B199D95B6157A27D6 /* CocoaToggles-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF066118A3913C22EA3E26145B7CFD5B /* CTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1BB7F55E2CB6F708156E567655C83 /* CTService.swift */; };
+		F20DB806C676C4A486CA1F7352C9BFCC /* CTLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46539BCFE6A33902E0C84BB432388DD5 /* CTLogger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9832DF8A854E48A5A3D2955C0F5A8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53EBA46C367B22E1554270DB28228B0C;
+			remoteInfo = CocoaToggles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B45D8CD6962AD9B199D95B6157A27D6 /* CocoaToggles-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaToggles-umbrella.h"; sourceTree = "<group>"; };
+		18E1BB7F55E2CB6F708156E567655C83 /* CTService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTService.swift; path = CocoaToggles/Classes/CTService.swift; sourceTree = "<group>"; };
+		247AEE500903600B83F555A37404007E /* CocoaToggles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaToggles.xcconfig; sourceTree = "<group>"; };
+		2CAA5C3F83372569B301209C7572A884 /* Pods-UseCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UseCase.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A7DC651B9A13DFE4FF570701DC64E81 /* Pods-UseCase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UseCase-acknowledgements.plist"; sourceTree = "<group>"; };
+		46539BCFE6A33902E0C84BB432388DD5 /* CTLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTLogger.swift; path = CocoaToggles/Classes/CTLogger.swift; sourceTree = "<group>"; };
+		67F2484A5021639956F41A50655C4718 /* CTToggle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTToggle.swift; path = CocoaToggles/Classes/CTToggle.swift; sourceTree = "<group>"; };
+		6A03D6501179CB09D80191A9256E9750 /* CTRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTRepository.swift; path = CocoaToggles/Classes/CTRepository.swift; sourceTree = "<group>"; };
+		6A1788FCFB67290287F3C45E2BC93AC0 /* CocoaToggles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaToggles.framework; path = CocoaToggles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBB442938752217FD6195641B86358A /* CocoaToggles.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaToggles.modulemap; sourceTree = "<group>"; };
+		7FE1327A57856FFC1FF7FF5AFDC62B03 /* CocoaToggles-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaToggles-Info.plist"; sourceTree = "<group>"; };
+		8598CBEC9AEB82237C1B612BB6F0B649 /* Pods-UseCase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UseCase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B8284B9771417CD5DADFFFF1D124CF9 /* Pods_UseCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UseCase.framework; path = "Pods-UseCase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B974E9952CE0CD840E4BACB337A3FEE /* CocoaToggles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaToggles-prefix.pch"; sourceTree = "<group>"; };
+		96CE61769C5B21922582FDCD65B31146 /* Pods-UseCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UseCase-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7BF97EC0D02270D23771D5C6E2DA565 /* CocoaToggles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaToggles-dummy.m"; sourceTree = "<group>"; };
+		C3C441CA113A3AA1EA8F07013F00B1E7 /* CTToggleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTToggleManager.swift; path = CocoaToggles/Classes/CTToggleManager.swift; sourceTree = "<group>"; };
+		D6C77D0E9F0C419BDA9F272BB94E41A6 /* Pods-UseCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UseCase.modulemap"; sourceTree = "<group>"; };
+		DB98EC2110D86F24B7FF9B3E4119270C /* CTApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTApplication.swift; path = CocoaToggles/Classes/CTApplication.swift; sourceTree = "<group>"; };
+		DE96999CDBA31404A69678714F91ADAF /* CTTogglesDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTTogglesDelegate.swift; path = CocoaToggles/Classes/CTTogglesDelegate.swift; sourceTree = "<group>"; };
+		DEAA545D6C27074A3B5D79E846E66557 /* Pods-UseCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UseCase-dummy.m"; sourceTree = "<group>"; };
+		E74DE808438D49CDD048FDE9F7F956C0 /* Pods-UseCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UseCase-umbrella.h"; sourceTree = "<group>"; };
+		F78FA0D1B75B41AE4B054DC6D8C365F6 /* Pods-UseCase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UseCase-frameworks.sh"; sourceTree = "<group>"; };
+		FEA2488E1647CF6FDEA8297EDC24C535 /* Pods-UseCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UseCase.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8121CFE463241DD72C901F68168F2795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2530A531BC06C301B894C2B34BC3DE67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEE31673FF52E5D659C2C960A7DF4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E551B134E4FF1D4877D454B415207D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C1323FAA5768DE3D8EF40982250945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				138FC108639575165125C8EDF7CA43A6 /* CocoaToggles */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		138FC108639575165125C8EDF7CA43A6 /* CocoaToggles */ = {
+			isa = PBXGroup;
+			children = (
+				DB98EC2110D86F24B7FF9B3E4119270C /* CTApplication.swift */,
+				46539BCFE6A33902E0C84BB432388DD5 /* CTLogger.swift */,
+				6A03D6501179CB09D80191A9256E9750 /* CTRepository.swift */,
+				18E1BB7F55E2CB6F708156E567655C83 /* CTService.swift */,
+				67F2484A5021639956F41A50655C4718 /* CTToggle.swift */,
+				C3C441CA113A3AA1EA8F07013F00B1E7 /* CTToggleManager.swift */,
+				DE96999CDBA31404A69678714F91ADAF /* CTTogglesDelegate.swift */,
+				8A69FAE7915C289F728444DE7FBED9AD /* Support Files */,
+			);
+			name = CocoaToggles;
+			path = CocoaToggles;
+			sourceTree = "<group>";
+		};
+		5B4EFA8B32AC9BE4177B517715B40868 /* Pods-UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				D6C77D0E9F0C419BDA9F272BB94E41A6 /* Pods-UseCase.modulemap */,
+				8598CBEC9AEB82237C1B612BB6F0B649 /* Pods-UseCase-acknowledgements.markdown */,
+				3A7DC651B9A13DFE4FF570701DC64E81 /* Pods-UseCase-acknowledgements.plist */,
+				DEAA545D6C27074A3B5D79E846E66557 /* Pods-UseCase-dummy.m */,
+				F78FA0D1B75B41AE4B054DC6D8C365F6 /* Pods-UseCase-frameworks.sh */,
+				96CE61769C5B21922582FDCD65B31146 /* Pods-UseCase-Info.plist */,
+				E74DE808438D49CDD048FDE9F7F956C0 /* Pods-UseCase-umbrella.h */,
+				FEA2488E1647CF6FDEA8297EDC24C535 /* Pods-UseCase.debug.xcconfig */,
+				2CAA5C3F83372569B301209C7572A884 /* Pods-UseCase.release.xcconfig */,
+			);
+			name = "Pods-UseCase";
+			path = "Target Support Files/Pods-UseCase";
+			sourceTree = "<group>";
+		};
+		654D07071F3020BA4068156D7AA93161 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A1788FCFB67290287F3C45E2BC93AC0 /* CocoaToggles.framework */,
+				8B8284B9771417CD5DADFFFF1D124CF9 /* Pods_UseCase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A69FAE7915C289F728444DE7FBED9AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FBB442938752217FD6195641B86358A /* CocoaToggles.modulemap */,
+				247AEE500903600B83F555A37404007E /* CocoaToggles.xcconfig */,
+				A7BF97EC0D02270D23771D5C6E2DA565 /* CocoaToggles-dummy.m */,
+				7FE1327A57856FFC1FF7FF5AFDC62B03 /* CocoaToggles-Info.plist */,
+				8B974E9952CE0CD840E4BACB337A3FEE /* CocoaToggles-prefix.pch */,
+				0B45D8CD6962AD9B199D95B6157A27D6 /* CocoaToggles-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaToggles";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				06C1323FAA5768DE3D8EF40982250945 /* Pods */,
+				654D07071F3020BA4068156D7AA93161 /* Products */,
+				F0FECA1D070F3C4566362692529104E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FECA1D070F3C4566362692529104E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4EFA8B32AC9BE4177B517715B40868 /* Pods-UseCase */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1351FAF07EE50D4C3491F8FEC63113C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4089645C03CA02E91AE1963C2E59AEA /* CocoaToggles-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314B8D90C386D35F1993B9E6086CADC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7D9D0E3319D5D95AFECD2042464E79 /* Pods-UseCase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53EBA46C367B22E1554270DB28228B0C /* CocoaToggles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42541F794B8C526B9984BE72E28F6F74 /* Build configuration list for PBXNativeTarget "CocoaToggles" */;
+			buildPhases = (
+				1351FAF07EE50D4C3491F8FEC63113C4 /* Headers */,
+				70756130E333E0FAB51A2B04D87E333B /* Sources */,
+				8121CFE463241DD72C901F68168F2795 /* Frameworks */,
+				BD29214F452A8B8922F59719F7358A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaToggles;
+			productName = CocoaToggles;
+			productReference = 6A1788FCFB67290287F3C45E2BC93AC0 /* CocoaToggles.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8EB8977885A601DB724BD40541B3CD6 /* Pods-UseCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBF68FB47F34B4F465A568A7765CC21 /* Build configuration list for PBXNativeTarget "Pods-UseCase" */;
+			buildPhases = (
+				314B8D90C386D35F1993B9E6086CADC6 /* Headers */,
+				A6F810C07E5C1A82B29795B92C59000B /* Sources */,
+				EAEE31673FF52E5D659C2C960A7DF4B5 /* Frameworks */,
+				A405AC5F1FBF604A7651478512F5EE88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCD4550934147D10F30F7E95894AD7A /* PBXTargetDependency */,
+			);
+			name = "Pods-UseCase";
+			productName = "Pods-UseCase";
+			productReference = 8B8284B9771417CD5DADFFFF1D124CF9 /* Pods_UseCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 654D07071F3020BA4068156D7AA93161 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53EBA46C367B22E1554270DB28228B0C /* CocoaToggles */,
+				E8EB8977885A601DB724BD40541B3CD6 /* Pods-UseCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A405AC5F1FBF604A7651478512F5EE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD29214F452A8B8922F59719F7358A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70756130E333E0FAB51A2B04D87E333B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6ECD878CBEB5D44EFE6CC11693ACF6 /* CocoaToggles-dummy.m in Sources */,
+				752C276D8BAC53BFEE57E64829C7654B /* CTApplication.swift in Sources */,
+				F20DB806C676C4A486CA1F7352C9BFCC /* CTLogger.swift in Sources */,
+				4A49065D18F993E799F887FF29E6D98A /* CTRepository.swift in Sources */,
+				DF066118A3913C22EA3E26145B7CFD5B /* CTService.swift in Sources */,
+				2CB41661BB58D062C83C0F3635C1669D /* CTToggle.swift in Sources */,
+				2DAC5C0B8624478555C0C990C39FE952 /* CTToggleManager.swift in Sources */,
+				507BE299BC209B89C484EB4089066808 /* CTTogglesDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F810C07E5C1A82B29795B92C59000B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1389309BD441C06F8F762BE101E23A51 /* Pods-UseCase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDCD4550934147D10F30F7E95894AD7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaToggles;
+			target = 53EBA46C367B22E1554270DB28228B0C /* CocoaToggles */;
+			targetProxy = C9832DF8A854E48A5A3D2955C0F5A8C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		243CA284228EAB87B2E454B5A227FF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247AEE500903600B83F555A37404007E /* CocoaToggles.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaToggles/CocoaToggles-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaToggles/CocoaToggles-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaToggles/CocoaToggles.modulemap";
+				PRODUCT_MODULE_NAME = CocoaToggles;
+				PRODUCT_NAME = CocoaToggles;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67B39476C432A7AE3E40857383B414C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAA5C3F83372569B301209C7572A884 /* Pods-UseCase.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UseCase/Pods-UseCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UseCase/Pods-UseCase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C4249030ED9186617771949D51929B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247AEE500903600B83F555A37404007E /* CocoaToggles.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaToggles/CocoaToggles-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaToggles/CocoaToggles-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaToggles/CocoaToggles.modulemap";
+				PRODUCT_MODULE_NAME = CocoaToggles;
+				PRODUCT_NAME = CocoaToggles;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCD8413E7091085728714712033A54C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA2488E1647CF6FDEA8297EDC24C535 /* Pods-UseCase.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UseCase/Pods-UseCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UseCase/Pods-UseCase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42541F794B8C526B9984BE72E28F6F74 /* Build configuration list for PBXNativeTarget "CocoaToggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243CA284228EAB87B2E454B5A227FF4B /* Debug */,
+				C4249030ED9186617771949D51929B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBF68FB47F34B4F465A568A7765CC21 /* Build configuration list for PBXNativeTarget "Pods-UseCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD8413E7091085728714712033A54C1 /* Debug */,
+				67B39476C432A7AE3E40857383B414C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

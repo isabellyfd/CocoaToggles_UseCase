@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CocoaToggles
 
 class ViewController: UIViewController {
     
@@ -16,6 +17,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setupToggleManager()
+    }
+    
+    private func setupToggleManager() {
+        let appConfiguration = CTConfiguration("", "")
+        let toggleManager = CTToggleManager(configuration: appConfiguration)
+        toggleManager.delegate = self
+        toggleManager.config()
     }
 
     @IBAction func onClickToPayButton(_ sender: Any) {
@@ -33,5 +42,12 @@ class ViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
 
         self.present(alert, animated: true)
+    }
+}
+
+extension ViewController : CTTogglesDelegate {
+    
+    func getTogglesFrom(repository: CTRepository) {
+        
     }
 }
