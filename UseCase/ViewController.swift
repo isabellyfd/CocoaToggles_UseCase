@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     
     private func setupToggleManager() {
-        let appConfiguration = CTConfiguration("", "")
+        let appConfiguration = CTConfiguration("mu6l0zKTLEdPKA6ddRz0EFszcb22", "2xN2gQ4G2csX735qKQ0r")
         let toggleManager = CTToggleManager(configuration: appConfiguration)
         toggleManager.delegate = self
         toggleManager.config()
@@ -48,6 +48,6 @@ class ViewController: UIViewController {
 extension ViewController : CTTogglesDelegate {
     
     func getTogglesFrom(repository: CTRepository) {
-        
+        print(repository)
     }
 }
