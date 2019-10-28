@@ -9,9 +9,9 @@
 import Foundation
 
 class NewDiscountService : Discountable {
-    private let percentage = Decimal(floatLiteral: 0.05)
+    private let percentage = Double(floatLiteral: 0.05)
     
-    func calculateDiscount(for amount: Decimal) -> Decimal {
+    func calculateDiscount(for amount: Double) -> Double {
         return amount * percentage
     }
 }

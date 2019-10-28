@@ -32,13 +32,13 @@ class ViewController: UIViewController {
         guard let unformattedAmount = currencyTextfield.text else { return }
         guard let amount = Double(unformattedAmount) else { return }
         
-        let discount = discountService.calculateDiscount(for: Decimal(amount))
+        let discount = discountService.calculateDiscount(for: amount)
         
         self.showAlert(amount: unformattedAmount, discount: discount)
     }
 
-    private func showAlert(amount: String, discount: Decimal) {
-        let alert = UIAlertController(title: "Cashback!!", message: "Ao pagar R$\(amount) reais você receberá R$\(discount) reais de cashbak!", preferredStyle: .alert)
+    private func showAlert(amount: String, discount: Double) {
+        let alert = UIAlertController(title: "Cashback!!", message: "Ao pagar R$\(amount) reais você receberá R$\(discount.format(with: ".2")) reais de cashbak!", preferredStyle: .alert)
 
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
 

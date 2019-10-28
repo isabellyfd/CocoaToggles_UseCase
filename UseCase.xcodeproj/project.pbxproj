@@ -16,6 +16,7 @@
 		EAF0023C23628B8700677E74 /* DiscountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0023B23628B8700677E74 /* DiscountService.swift */; };
 		EAF0024E236750E000677E74 /* Discountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0024D236750E000677E74 /* Discountable.swift */; };
 		EAF002502367513900677E74 /* NewDiscountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0024F2367513900677E74 /* NewDiscountService.swift */; };
+		EAF002542367581C00677E74 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF002532367581C00677E74 /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EAF0023B23628B8700677E74 /* DiscountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountService.swift; sourceTree = "<group>"; };
 		EAF0024D236750E000677E74 /* Discountable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discountable.swift; sourceTree = "<group>"; };
 		EAF0024F2367513900677E74 /* NewDiscountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiscountService.swift; sourceTree = "<group>"; };
+		EAF002532367581C00677E74 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		F7D5835E374C6102388ACA21 /* Pods-UseCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseCase.debug.xcconfig"; path = "Target Support Files/Pods-UseCase/Pods-UseCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				EAF0022F23625B5F00677E74 /* Assets.xcassets */,
 				EAF0023123625B5F00677E74 /* LaunchScreen.storyboard */,
 				EAF0023423625B5F00677E74 /* Info.plist */,
+				EAF002532367581C00677E74 /* DoubleExtension.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF002542367581C00677E74 /* DoubleExtension.swift in Sources */,
 				EAF0022B23625B5E00677E74 /* ViewController.swift in Sources */,
 				EAF0022923625B5E00677E74 /* AppDelegate.swift in Sources */,
 				EAF0024E236750E000677E74 /* Discountable.swift in Sources */,

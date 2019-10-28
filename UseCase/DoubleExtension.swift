@@ -1,5 +1,5 @@
 //
-//  Discountable.swift
+//  DoubleExtension.swift
 //  UseCase
 //
 //  Created by Isabelly Damascena on 28/10/19.
@@ -8,7 +8,8 @@
 
 import Foundation
 
-protocol Discountable {
-    
-    func calculateDiscount(for amount: Double) -> Double
+extension Double {
+    func format(with format: String) -> String {
+        return String(format: "%\(format)f", self)
+    }
 }
