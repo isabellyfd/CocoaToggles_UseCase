@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UseCase" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mV3-Jq-D9Y">
+                                <rect key="frame" x="41.5" y="295" width="331" height="134.5"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="62"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyO-kg-LTV">
+                                <rect key="frame" x="56" y="325.5" width="76" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="put-Zf-7Fs">
+                                <rect key="frame" x="124" y="541.5" width="166" height="52"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.50196078430000002" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="WIt-DZ-hdO"/>
+                                </constraints>
+                                <state key="normal" title="Pagar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickToPayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RP0-Iq-nKq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mV3-Jq-D9Y" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="Iqo-Bo-uX8"/>
+                            <constraint firstItem="mV3-Jq-D9Y" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Jz8-8c-IkI"/>
+                            <constraint firstItem="put-Zf-7Fs" firstAttribute="width" secondItem="mV3-Jq-D9Y" secondAttribute="width" multiplier="0.5" id="Rly-Aw-HwL"/>
+                            <constraint firstItem="put-Zf-7Fs" firstAttribute="centerX" secondItem="mV3-Jq-D9Y" secondAttribute="centerX" id="fVE-ho-DOp"/>
+                            <constraint firstItem="oyO-kg-LTV" firstAttribute="centerY" secondItem="mV3-Jq-D9Y" secondAttribute="centerY" id="fYH-I5-zJ7"/>
+                            <constraint firstItem="mV3-Jq-D9Y" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="t7b-e4-8v0"/>
+                            <constraint firstItem="mV3-Jq-D9Y" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.8" id="u3O-Hp-wsL"/>
+                            <constraint firstItem="put-Zf-7Fs" firstAttribute="top" secondItem="mV3-Jq-D9Y" secondAttribute="bottom" constant="112" id="w4D-KI-snS"/>
+                            <constraint firstItem="mV3-Jq-D9Y" firstAttribute="leading" secondItem="oyO-kg-LTV" secondAttribute="trailing" constant="-90.5" id="wK9-mf-i3I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="currencyTextfield" destination="mV3-Jq-D9Y" id="Mz9-l7-cRW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46.376811594202906" y="101.78571428571428"/>
+        </scene>
+    </scenes>
+</document>
