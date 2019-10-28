@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		EAF0023023625B5F00677E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF0022F23625B5F00677E74 /* Assets.xcassets */; };
 		EAF0023323625B5F00677E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF0023123625B5F00677E74 /* LaunchScreen.storyboard */; };
 		EAF0023C23628B8700677E74 /* DiscountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0023B23628B8700677E74 /* DiscountService.swift */; };
+		EAF0024E236750E000677E74 /* Discountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0024D236750E000677E74 /* Discountable.swift */; };
+		EAF002502367513900677E74 /* NewDiscountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF0024F2367513900677E74 /* NewDiscountService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		EAF0023223625B5F00677E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAF0023423625B5F00677E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF0023B23628B8700677E74 /* DiscountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountService.swift; sourceTree = "<group>"; };
+		EAF0024D236750E000677E74 /* Discountable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discountable.swift; sourceTree = "<group>"; };
+		EAF0024F2367513900677E74 /* NewDiscountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiscountService.swift; sourceTree = "<group>"; };
 		F7D5835E374C6102388ACA21 /* Pods-UseCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UseCase.debug.xcconfig"; path = "Target Support Files/Pods-UseCase/Pods-UseCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +52,6 @@
 				F7D5835E374C6102388ACA21 /* Pods-UseCase.debug.xcconfig */,
 				C46131D2182E3AE2E8138A56 /* Pods-UseCase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				EAF0023B23628B8700677E74 /* DiscountService.swift */,
+				EAF0024D236750E000677E74 /* Discountable.swift */,
+				EAF0024F2367513900677E74 /* NewDiscountService.swift */,
 			);
 			path = Discount;
 			sourceTree = "<group>";
@@ -217,7 +222,9 @@
 			files = (
 				EAF0022B23625B5E00677E74 /* ViewController.swift in Sources */,
 				EAF0022923625B5E00677E74 /* AppDelegate.swift in Sources */,
+				EAF0024E236750E000677E74 /* Discountable.swift in Sources */,
 				EAF0023C23628B8700677E74 /* DiscountService.swift in Sources */,
+				EAF002502367513900677E74 /* NewDiscountService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

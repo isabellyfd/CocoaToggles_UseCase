@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var currencyTextfield: UITextField!
     
-    private var discountService = DiscountService()
+    private var discountService : Discountable?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,10 +28,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onClickToPayButton(_ sender: Any) {
+        guard let discountService = self.discountService else { return }
         guard let unformattedAmount = currencyTextfield.text else { return }
         guard let amount = Double(unformattedAmount) else { return }
         
-        let discount = self.discountService.calculateDiscount(for: Decimal(amount))
+        let discount = discountService.calculateDiscount(for: Decimal(amount))
         
         self.showAlert(amount: unformattedAmount, discount: discount)
     }
@@ -48,6 +49,12 @@ class ViewController: UIViewController {
 extension ViewController : CTTogglesDelegate {
     
     func getTogglesFrom(repository: CTRepository) {
-        print(repository)
+        guard let isNewDiscountFeatureOn = repository.isToggleOn(name: "new-discount-calculation") else { return }
+        
+        if isNewDiscountFeatureOn {
+            self.discountService = NewDiscountService()
+        } else {
+            self.discountService = DiscountService()
+        }
     }
 }
